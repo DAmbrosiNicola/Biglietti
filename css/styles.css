@@ -1,0 +1,28 @@
+li {
+    color: yellowgreen;
+}
+
+li span {
+    color: white;
+}
+
+ul {
+    list-style: inside;
+}
+
+button {
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+}
+
+@media(max-width: 767px) {
+    button {
+        margin-bottom: 20px;
+        font-size: 45px;
+    }
+
+    .titolo {
+        font-size: 70px;
+    }
+}
